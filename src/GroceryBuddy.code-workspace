@@ -42,6 +42,8 @@
             "markdownlint",
             "MediatR",
             "nuget",
+            "primeicons",
+            "primeng",
             "pwsh",
             "setvariable",
             "Setup",
