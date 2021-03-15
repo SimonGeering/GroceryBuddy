@@ -1,6 +1,23 @@
-<body>
-  <app-nav-menu></app-nav-menu>
-  <div class="container">
+<body class="grid-container">
+  <header>
+    <p-button class="mobile-only" icon="pi pi-bars" (click)="menu.toggle($event)"></p-button>
+    <p-menu class="mobile-only" #menu [popup]="true" [model]="items"></p-menu>
+  </header>
+  <nav class="desktop-only">
+    <p-menu [model]="items"></p-menu>
+  </nav>
+  <main>
     <router-outlet></router-outlet>
-  </div>
+  </main>
+  <aside></aside>
+  <footer></footer>
 </body>
+
+
+<div class="grid-container">
+  <div class="Header"></div>
+  <div class="Footer"></div>
+  <div class="nav"></div>
+  <div class="main"></div>
+  <div class="aside"></div>
+</div>
