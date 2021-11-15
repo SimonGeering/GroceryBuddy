@@ -1,4 +1,4 @@
-using GroceryBuddy.WebAPI.Infrastructure;
+using GroceryBuddy.WebAPI.Infrastructure.DAL;
 
 namespace GroceryBuddy.WebAPI.Domain;
 

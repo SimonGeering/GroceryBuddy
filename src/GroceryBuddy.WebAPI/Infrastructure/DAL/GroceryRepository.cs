@@ -1,6 +1,6 @@
 using GroceryBuddy.WebAPI.Domain;
 
-namespace GroceryBuddy.WebAPI.Infrastructure;
+namespace GroceryBuddy.WebAPI.Infrastructure.DAL;
 
 public interface IGroceryRepository
 {

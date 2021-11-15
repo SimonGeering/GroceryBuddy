@@ -1,5 +1,5 @@
 using GroceryBuddy.WebAPI.Domain;
-using GroceryBuddy.WebAPI.Infrastructure;
+using GroceryBuddy.WebAPI.Infrastructure.DAL;
 
 var builder = WebApplication.CreateBuilder(args);
 
