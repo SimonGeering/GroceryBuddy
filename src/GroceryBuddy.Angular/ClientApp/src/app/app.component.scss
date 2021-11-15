@@ -17,6 +17,10 @@ header {
 nav {
   grid-area: navbar;
   background-color: grey;
+
+  @media (max-width: 639px) {
+    display: none;
+  }
 }
 
 main {
